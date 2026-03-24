@@ -105,6 +105,13 @@ export const COMMUNITY_CONSTANTS = {
   CONTACT_EMAIL: 'comelyartsbyyou@gmail.com',
   /** WhatsApp link: use full number with country code, no + or spaces (e.g. 919876543210) */
   WHATSAPP_LINK: 'https://wa.me/916380165810',
+  /**
+   * WhatsApp group invite (chat.whatsapp.com/...). Used for “Join our group” CTAs.
+   * If empty, falls back to WHATSAPP_LINK (direct chat).
+   */
+  WHATSAPP_GROUP_LINK: '',
+  /** WhatsApp channel link for "Join" CTAs */
+  WHATSAPP_CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbCHdVX23n3XaZhMwt30',
   /** Event inquiry: email sent to this address when someone requests a callback (via EVENT_INQUIRY_SUBMIT_URL). */
   EVENT_INQUIRY_EMAIL: 'comelyartsbyyou@gmail.com',
 } as const;

@@ -4,7 +4,7 @@ import { IMAGES } from "@/assets/images";
 import { WorkshopCards } from "@/components/WorkshopCards";
 import { Gallery } from "@/components/Gallery";
 import { CommunitySection } from "@/components/CommunitySection";
-import { SubscriptionForm } from "@/components/SubscriptionForm";
+import { WhatsAppGroupCta } from "@/components/WhatsAppGroupCta";
 
 export default function Home() {
   return (
@@ -133,8 +133,8 @@ export default function Home() {
                   Stay in the Creative Loop
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Subscribe to our newsletter for early access to upcoming workshops, exclusive art tips, 
-                  and special community events. Be part of the 500+ and counting.
+                  Join our WhatsApp channel for early access to workshops, art tips, and special community
+                  moments. Be part of the 500+ and counting.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Connect & Chat</h4>
-                      <p className="text-sm text-muted-foreground">Chat with fellow attendees before you even arrive at the workshop.</p>
+                      <p className="text-sm text-muted-foreground">Chat with fellow creators and get updates right in WhatsApp.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -152,16 +152,16 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Exclusive Invites</h4>
-                      <p className="text-sm text-muted-foreground">Get notified about our high-demand Sip & Paint sessions first.</p>
+                      <p className="text-sm text-muted-foreground">Hear about Sip &amp; Paint and private events before they fill up.</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="bg-card p-8 md:p-12 rounded-3xl shadow-xl shadow-foreground/5 border border-border">
-                <h3 className="text-2xl font-bold mb-6 text-center">Join the Movement</h3>
-                <SubscriptionForm />
+                <h3 className="text-2xl font-bold mb-6 text-center">Join Our WhatsApp Channel</h3>
+                <WhatsAppGroupCta />
                 <p className="text-xs text-center text-muted-foreground mt-6">
-                  We respect your privacy. Unsubscribe at any time.
+                  WhatsApp is provided by Meta. You can leave the group anytime.
                 </p>
               </div>
             </div>

@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ROUTE_PATHS, scrollToId, COMMUNITY_CONSTANTS } from '@/lib/index';
 
 const whatsappUrl = COMMUNITY_CONSTANTS.WHATSAPP_LINK;
-import { SubscriptionForm } from '@/components/SubscriptionForm';
+import { WhatsAppGroupCta } from '@/components/WhatsAppGroupCta';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -205,13 +205,13 @@ export function Layout({ children }: LayoutProps) {
               </ul>
             </div>
 
-            {/* Newsletter Column */}
+            {/* WhatsApp group */}
             <div id="contact">
               <h4 className="font-bold text-lg mb-6">Stay Creative</h4>
               <p className="text-muted-foreground text-sm mb-4">
-                Get updates on upcoming workshops, early-bird tickets, and art tips.
+                Join our WhatsApp channel for workshops, tips, and community updates.
               </p>
-              <SubscriptionForm />
+              <WhatsAppGroupCta compact />
             </div>
           </div>
 
